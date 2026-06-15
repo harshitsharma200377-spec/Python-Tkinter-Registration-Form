@@ -1,63 +1,43 @@
 # Tkinter Registration Form with MySQL & Email Notifications
 
-## Features
+A simple Python desktop application built using Tkinter with MySQL database integration and Gmail email notifications.
 
-* User Registration Form
-* MySQL Database Integration
-* Gmail Email Notification
-* Environment Variable Security (.env)
-* Tkinter GUI
+---
 
-## Technologies Used
+## 🚀 Features
 
-* Python
-* Tkinter
-* MySQL
-* SMTP (Gmail)
-* python-dotenv
+- User Registration Form
+- MySQL Database Integration
+- Gmail Email Notification
+- Secure Environment Variables (.env)
+- Simple Tkinter GUI Interface
 
-## Screenshots
+---
 
-### Registration Form
+## 🛠️ Technologies Used
 
-![Home](screenshots/home.png)
+- Python
+- Tkinter
+- MySQL
+- SMTP (Gmail)
+- python-dotenv
 
-### Success Message
+---
 
-![Success](screenshots/success.png)
+## 📸 Screenshots
 
-## Installation
+### 🏠 Registration Form
 
-Clone the repository:
+![Registration Form](images/home.png)
 
+### ✅ Success Message
+
+![Success Message](images/success.png)
+
+---
+
+## 📥 Installation
+
+### 1. Clone the repository
 ```bash
 git clone <your-repo-url>
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Create a `.env` file using `.env.example`.
-
-Run:
-
-```bash
-python main.py
-```
-
-## Database Setup
-
-Execute:
-
-```sql
-sql/database.sql
-```
-
-to create the database and table.
-
-## Author
-
-Harshit Sharma
